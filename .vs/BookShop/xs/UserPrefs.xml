@@ -1,0 +1,52 @@
+﻿<Properties StartupConfiguration="{2D0CB2B8-1F2A-43CD-9477-0BF3B86D5FC8}|Default">
+  <MonoDevelop.Ide.ItemProperties.BookShop PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Services/Interfaces/BaseInterface/IBaseInterface.cs">
+    <Files>
+      <File FileName="Program.cs" />
+      <File FileName="Models/Book.cs" />
+      <File FileName="Models/Category.cs" />
+      <File FileName="Models/Language.cs" />
+      <File FileName="Models/Common/BaseEntity.cs" />
+      <File FileName="Models/Common/BaseAuditibleEntity.cs" />
+      <File FileName="Services/Interfaces/BaseInterface/IBaseInterface.cs" Line="8" Column="30" />
+      <File FileName="Services/Interfaces/BookInterface/IBookInterface.cs" />
+      <File FileName="Services/Interfaces/CategoryInterface/ICategoryInterface.cs" />
+      <File FileName="Services/Interfaces/LanguageInterface/ILanguageInterface.cs" />
+      <File FileName="Services/Implementations/Book/BookService.cs" />
+      <File FileName="Services/Implementations/Base/BaseService.cs" Line="23" Column="18" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookShop" expanded="True">
+            <Node name="BookShop" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Common" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Implementations" expanded="True">
+                  <Node name="Base" expanded="True" />
+                  <Node name="Book" expanded="True" />
+                </Node>
+                <Node name="Interfaces" expanded="True">
+                  <Node name="BaseInterface" expanded="True">
+                    <Node name="IBaseInterface.cs" selected="True" />
+                  </Node>
+                  <Node name="BookInterface" expanded="True" />
+                  <Node name="CategoryInterface" expanded="True" />
+                  <Node name="LanguageInterface" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Models\Common\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Implementations\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Services\Interfaces\BaseInterface\" />
+    <None Remove="Services\Interfaces\CategoryInterface\" />
+    <None Remove="Services\Interfaces\LanguageInterface\" />
+    <None Remove="Services\Interfaces\BookInterface\" />
+    <None Remove="Services\Implementations\Book\" />
+    <None Remove="Services\Implementations\Base\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Models\Common\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Implementations\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Interfaces\BaseInterface\" />
+    <Folder Include="Services\Interfaces\CategoryInterface\" />
+    <Folder Include="Services\Interfaces\LanguageInterface\" />
+    <Folder Include="Services\Interfaces\BookInterface\" />
+    <Folder Include="Services\Implementations\Book\" />
+    <Folder Include="Services\Implementations\Base\" />
+  </ItemGroup>
+</Project>
